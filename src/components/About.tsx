@@ -2,32 +2,33 @@ import { TitleText } from "../atoms/Title";
 
 export const AboutMe = () => {
   return (
-    <div className="h-screen"  id="about">
+    <div className="h-screen" id="about">
       <TitleText text="About Me" />
       <div className=" grid grid-cols-2 gap-2 ">
         <div className=" relative py-2">
           <img
-            src="https://wavang.com/image/images/sitting-img.jpg"
+            src=""
             className="rounded-lg float-right"
           />
           <img
             className="relative left-10 -top-40 rounded-lg"
-            src="https://wavang.com/image/images/desktop-work-img.jpg"
+            src=""
           />
         </div>
         <div className="text-left">
           <p>
-            I am a versatile full-stack developer from plymouth United Kingdom, driven by a
-            fervent enthusiasm for developing cutting-edge web applications and
-            dynamic user interfaces. With expertise in JavaScript technologies
-            like React, React Native, and Node.js, coupled with my experience in
-            .NET Core, I possess a unique ability to translate design concepts
-            into seamless digital experiences. My passion lies in surpassing
-            expectations, delivering visually stunning and highly responsive
-            websites and applications that leave a lasting impact on users. Let
-            my innovative approach and technical acumen elevate your projects,
-            as we collaboratively transform ideas into captivating digital
-            realities.
+            Hello! My name is Brittany and I enjoy creating things that live on
+            the internet. My interest in web development started back in 2012
+            when I decided to try editing custom Tumblr themes — turns out
+            hacking together a custom reblog button taught me a lot about HTML &
+            CSS! Fast-forward to today, and I’ve had the privilege of working at
+            an advertising agency, a start-up, a huge corporation, and a
+            student-led design studio. My main focus these days is building
+            accessible, inclusive products and digital experiences at
+            Upstatement for a variety of clients. I also recently launched a
+            course that covers everything you need to build a web app with the
+            Spotify API using Node & React. Here are a few technologies I’ve
+            been working with recently:
           </p>
           <div className="grid grid-cols-2 grid-row-3 gap-4">
             <div>

@@ -1,6 +1,7 @@
 import { Button } from "../atoms/Button";
 import PortfolioImg from "./../assets/profile-photo.jpeg";
 import { TitleText } from "../atoms/Title";
+import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 
 export const Hero = () => {
   return (
@@ -20,8 +21,31 @@ export const Hero = () => {
           my skills in building scalable and efficient web applications.
         </p>
         <div className="flex gap-4">
-          <Button handleClick={() => {}} buttonText="Contact me" />
-          <Button handleClick={() => {}} buttonText="view my portfolio" />
+          <ul className="flex gap-2">
+            <li>
+              <a href="https://github.com/chamarasanjeewauk">
+                <FaGithub />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/chamara-sanjeewa">
+                <FaLinkedin />
+              </a>
+            </li>
+            <li>
+              <a href="https://medium.com/@chamara-sanjeewa">
+                <FaMedium />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/chamara-sanjeewa">
+                <FaGithub />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <Button buttonText="Resume" handleClick={() => {}} />
         </div>
       </div>
       <div className="md:flex hidden justify-center items-center align-middle flex-1">

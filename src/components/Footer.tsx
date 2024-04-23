@@ -1,8 +1,7 @@
 export const Footer = () => {
   return (
-    <div className="h-20 bg-black">
-      <h1>facebook</h1>
-      <h1>Twitter</h1>
+    <div className="h-20 ">
+      <h1>Designed and bult by Chamara Sanjeewa</h1>
     </div>
   );
 };

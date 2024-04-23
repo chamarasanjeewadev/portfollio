@@ -1,0 +1,72 @@
+{
+  "career": [
+    {
+      "companyName": "ROOTCODE | senior developer",
+      "durationFrom": "March 2023  ",
+      "durationTo": "Jan 2024",
+      "location": "Sakala, Estonia (remote)",
+      "companyWeb":"https://www.rootcode.io/",
+      "jd": [
+        "Engagedinarchitecturallyshapingamulti-tenantproductonAWS,incorporating Google Calendar, Stripe,Slack integrations and federated authentications configured on OAuth",
+        "Offered guidance/ leadership to several teams in resolving technical challenges with in the organization.",
+        "InitiatedCI/CDautomationthroughGitHubActions,semanticreleases,Slack notifications and related technologies resulting in a significant reduction in feature deployment time.",
+        "ActivelyinvolvedinReact,ReactNativeandnodeJSdevelopment,advocatingfor Test-Driven Development (TDD) using Jest and React Testing Library.",
+        "Conducted random pair programming sessions to mentorjuniorswhilefollowing agile scrum"
+      ],
+      "tech": [
+        "React",
+        " React native",
+        " nextJS",
+        "react-query",
+        " zustand",
+        "formik",
+        "AWS",
+        "EC2",
+        "Cognito",
+        "amplify",
+        "S3",
+        "Docker",
+        "Jenkins ",
+        "pipelines",
+        "Github actions",
+        "atomic design",
+        " Jest",
+        "RTL",
+        "Storybooks",
+        "Code magic",
+        "fastlane"
+      ]
+    },
+    {
+      "companyName": "Baby journey | senior developer",
+      "durationFrom": "March 2023  ",
+      "durationTo": "Jan 2024",
+      "location": "Sakala, Estonia (remote)",
+      "companyWeb":"https://babyjourney.io/",
+      "jd": [
+        "Contributedonfullstackdevelopmentwithreact/Vitebasedbackofficeproduct, React Native app and GCP cloud functions with nodeJS as backend.",
+        "RevampedlegacyReactcodebaseinalignmentwithatomicarchitecture, implementing a range of optimizations such as lazy loading, error boundaries, suspense, custom hooks and more. This initiative led to a notable decrease in duplications,streamliningdevelopmentefforts,andculminatedina20%reduction in the total bundle size.",
+        "Crafted a scalable component library that enforced accessibility and fluency across the application",
+        "InitiatedCI/CDautomationthroughGitHubActions,semanticreleases,Slack notifications and related technologies resulting in a significant reduction in feature deployment time.",
+        "Implementedbestpractices,incorporatingtoolssuchasESLint,lint-staged,Git Hooks, and performing unit testing using Jest and React Testing Library (RTL)."
+      ],
+      "tech": [
+        "React",
+        "React native",
+        "Vite",
+        "ContextAPI",
+        "react-hook-forms",
+        "firebase",
+        "firestore",
+        "Firebase A/B testing",
+        " GCP",
+        "looker studio",
+        "Big query",
+        "Fastlane",
+        "atomic design",
+        "Jest",
+        "RTL"
+      ]
+    }
+  ]
+}
