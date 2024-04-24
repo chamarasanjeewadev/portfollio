@@ -1,3 +1,4 @@
+import { BulletText } from "../atoms/BulletText";
 import { TitleText } from "../atoms/Title";
 import careerInfo from "./../assets/portfollio.json";
 import { FaExternalLinkAlt } from "react-icons/fa";
@@ -13,7 +14,9 @@ type SkillCardProps = {
 };
 export const Experience = () => {
   const carrier: SkillCardProps[] = careerInfo.career;
-
+  const technologies: string[] = careerInfo.technologies;
+  const languages: string[] = careerInfo.languages;
+  const other: string[] = careerInfo.other;
   return (
     <section id="experience" className="min-h-screen">
       <div className="flex gap-2 content-center">
@@ -26,9 +29,13 @@ export const Experience = () => {
       </div>
       <div className="grid grid-cols-3 mt-2">
         <div className="item1 col-span-1 ">
-          <div>
-            <LeftSection title="title" />
-            <LeftSection title="title2" />
+          <div className="flex flex-col gap-2">
+            <LeftSection title="Languages" content={languages} />
+            <LeftSection
+              title="Libraries and frameworks"
+              content={technologies}
+            />
+            <LeftSection title="Other" content={other} />
           </div>
         </div>
         <div className="item2 col-span-2">
@@ -41,19 +48,20 @@ export const Experience = () => {
   );
 };
 
-export const LeftSection = ({ title }: { title: string }) => {
+export const LeftSection = ({
+  title,
+  content,
+}: {
+  title: string;
+  content: string[];
+}) => {
   return (
-    <div className="flex flex-col gap-2 text-left font-sm">
-      <h1>TECHNOLOGY</h1>
-      <ul className="list-disc">
-        <li> NextJs|Vite|Webpack</li>
-        <li> Reactquery|Zustand|RTK|Redux| Mobx</li>
-        <li> HTML|CSS|SASS|AntD|MUI| Styled components | Tailwind</li>
-        <li> Git/Github|AWSAmplify|AWS Cognito</li>
-        <li> Sqlite|mssql|mysql|Mongo| firestore</li>
-        <li> StoryBook|Jest|RTL</li>
-        <li> Docker|Fastlane|Codemagic| Firebase App distribution</li>
-        <li> Sentry|Mailchimp|FCM</li>
+    <div className="flex flex-col gap-2 text-left">
+      <h1>{title}</h1>
+      <ul className="">
+        {content.map(technology => (
+          <BulletText>{technology}</BulletText>
+        ))}
       </ul>
     </div>
   );
@@ -68,7 +76,7 @@ export const SkillCard = ({
   tech,
 }: SkillCardProps) => {
   return (
-    <div className="flex flex-col gap-2 text-left text-wrap">
+    <div className="flex flex-col gap-2 text-left text-wrap md:group-hover:bg-slate-800/50">
       <div className="flex gap-2 items-center ">
         <h1>{companyName}</h1>
         <FaExternalLinkAlt
@@ -83,7 +91,9 @@ export const SkillCard = ({
       <p>
         <ul>
           {jd.map((item, index) => (
-            <li key={index}>{item}</li>
+            <li key={index}>
+              <p className="text-[#808dad]">{item}</p>
+            </li>
           ))}
         </ul>
       </p>

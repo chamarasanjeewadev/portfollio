@@ -2,33 +2,23 @@ import { TitleText } from "../atoms/Title";
 
 export const AboutMe = () => {
   return (
-    <div className="h-screen" id="about">
+    <section className="h-screen" id="about">
       <TitleText text="About Me" />
       <div className=" grid grid-cols-2 gap-2 ">
         <div className=" relative py-2">
-          <img
-            src=""
-            className="rounded-lg float-right"
-          />
-          <img
-            className="relative left-10 -top-40 rounded-lg"
-            src=""
-          />
+          <img src="/meetup.webp" className="rounded-lg float-right w-100 h-100 object-contain " />
+          <img className="relative left-10 -top-40 rounded-lg" src="" />
         </div>
         <div className="text-left">
           <p>
-            Hello! My name is Brittany and I enjoy creating things that live on
-            the internet. My interest in web development started back in 2012
-            when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS! Fast-forward to today, and I’ve had the privilege of working at
-            an advertising agency, a start-up, a huge corporation, and a
-            student-led design studio. My main focus these days is building
-            accessible, inclusive products and digital experiences at
-            Upstatement for a variety of clients. I also recently launched a
-            course that covers everything you need to build a web app with the
-            Spotify API using Node & React. Here are a few technologies I’ve
-            been working with recently:
+            Hello! i am Chamara. I have more than 10 plus years of
+            exprience in software industry. I have worked with different
+            technologies and tools. I love coding and have been working as a
+            full stack developer in most of the projects. Also i have led
+            multiple teams and directly have worked with norweigian swedish and uk
+            clients
+            <br />
+            My strength is my ability to learn and improve.
           </p>
           <div className="grid grid-cols-2 grid-row-3 gap-4">
             <div>
@@ -46,6 +36,6 @@ export const AboutMe = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

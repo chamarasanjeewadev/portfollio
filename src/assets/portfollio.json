@@ -1,11 +1,23 @@
 {
+  "languages":["JavaScript (ES6+)","Typescript","HTML", "CSS","NodeJS","C#.net"],
+  "other":["micro services","SOLID","CI/CD","VIM"],
+  "technologies": [
+    "NextJs|Vite|Webpack",
+    "Reactquery|Zustand|RTK|Redux| Mobx",
+    "HTML|CSS|SASS|AntD|MUI| Styled components | Tailwind",
+    "Git/Github|AWSAmplify|AWS Cognito",
+    "Sqlite|mssql|mysql|Mongo| firestore",
+    "StoryBook|Jest|RTL",
+    "Docker|Fastlane|Codemagic| Firebase App distribution",
+    "Sentry|Mailchimp|FCM"
+  ],
   "career": [
     {
       "companyName": "ROOTCODE | senior developer",
       "durationFrom": "March 2023  ",
       "durationTo": "Jan 2024",
       "location": "Sakala, Estonia (remote)",
-      "companyWeb":"https://www.rootcode.io/",
+      "companyWeb": "https://www.rootcode.io/",
       "jd": [
         "Engagedinarchitecturallyshapingamulti-tenantproductonAWS,incorporating Google Calendar, Stripe,Slack integrations and federated authentications configured on OAuth",
         "Offered guidance/ leadership to several teams in resolving technical challenges with in the organization.",
@@ -42,7 +54,7 @@
       "durationFrom": "March 2023  ",
       "durationTo": "Jan 2024",
       "location": "Sakala, Estonia (remote)",
-      "companyWeb":"https://babyjourney.io/",
+      "companyWeb": "https://babyjourney.se/",
       "jd": [
         "Contributedonfullstackdevelopmentwithreact/Vitebasedbackofficeproduct, React Native app and GCP cloud functions with nodeJS as backend.",
         "RevampedlegacyReactcodebaseinalignmentwithatomicarchitecture, implementing a range of optimizations such as lazy loading, error boundaries, suspense, custom hooks and more. This initiative led to a notable decrease in duplications,streamliningdevelopmentefforts,andculminatedina20%reduction in the total bundle size.",

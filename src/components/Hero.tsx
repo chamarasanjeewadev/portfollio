@@ -1,7 +1,12 @@
 import { Button } from "../atoms/Button";
 import PortfolioImg from "./../assets/profile-photo.jpeg";
 import { TitleText } from "../atoms/Title";
-import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
+import {
+  FaExternalLinkAlt,
+  FaGithub,
+  FaLinkedin,
+  FaMedium,
+} from "react-icons/fa";
 
 export const Hero = () => {
   return (
@@ -28,7 +33,7 @@ export const Hero = () => {
               </a>
             </li>
             <li>
-              <a href="https://github.com/chamara-sanjeewa">
+              <a href="https://www.linkedin.com/in/chamarasanjeewa/">
                 <FaLinkedin />
               </a>
             </li>
@@ -45,7 +50,9 @@ export const Hero = () => {
           </ul>
         </div>
         <div>
-          <Button buttonText="Resume" handleClick={() => {}} />
+          <a href="/resume_chamara_sanjeewa.pdf" target="_blank">
+            <div className="flex gap-2 items-center"><span> view Resume</span><FaExternalLinkAlt /></div>
+          </a>
         </div>
       </div>
       <div className="md:flex hidden justify-center items-center align-middle flex-1">

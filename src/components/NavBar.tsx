@@ -18,7 +18,12 @@ export const Header = () => (
           </Link>
         </li>
         <li>
-          <Link to="about" spy={true} smooth offset={-100}>
+          <Link to="projects" spy={true} smooth offset={-100}>
+          Projects 
+          </Link>
+        </li>
+        <li>
+          <Link to="about" spy={true} smooth offset={-0}>
             About
           </Link>
         </li>
