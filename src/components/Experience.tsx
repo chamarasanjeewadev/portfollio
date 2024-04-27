@@ -1,17 +1,8 @@
-import { BulletText } from "../atoms/BulletText";
-import { TitleText } from "../atoms/Title";
-import careerInfo from "./../assets/portfollio.json";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { BulletText } from '../atoms/BulletText';
+import { TitleText } from '../atoms/Title';
+import careerInfo from './../assets/portfollio.json';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
-type SkillCardProps = {
-  companyName: string;
-  durationFrom: string;
-  durationTo: string;
-  location: string;
-  companyWeb: string;
-  jd: string[];
-  tech: string[];
-};
 export const Experience = () => {
   const carrier: SkillCardProps[] = careerInfo.career;
   const technologies: string[] = careerInfo.technologies;
@@ -19,15 +10,17 @@ export const Experience = () => {
   const other: string[] = careerInfo.other;
   return (
     <section id="experience" className="min-h-screen">
-      <div className="flex gap-2 content-center">
+      <div className="flex content-center justify-between gap-2">
         <TitleText text="Experience" />
-        <h1>Download resume </h1>
-        <FaExternalLinkAlt
-          className="cursor-pointer"
-          onClick={() => window.open("/resume_chamara_sanjeewa.pdf")}
-        />
+        <div className=" flex items-center gap-2 ">
+          <h3>View resume </h3>
+          <FaExternalLinkAlt
+            className="cursor-pointer"
+            onClick={() => window.open('/resume_chamara_sanjeewa.pdf')}
+          />
+        </div>
       </div>
-      <div className="grid grid-cols-3 mt-2 ">
+      <div className="mt-2 grid grid-cols-3 ">
         <div className="item1 col-span-1 ">
           <div className="flex flex-col gap-2">
             <LeftSection title="Languages" content={languages} />
@@ -76,12 +69,12 @@ export const SkillCard = ({
   tech,
 }: SkillCardProps) => {
   return (
-    <div className="flex  flex-col gap-2 text-left text-wrap md:group-hover:bg-slate-800/50 relative">
-      <div className="flex gap-2 items-center ">
+    <div className="relative  flex flex-col gap-2 text-wrap text-left md:group-hover:bg-slate-800/50">
+      <div className="flex items-center gap-2 ">
         <h1>{companyName}</h1>
         <FaExternalLinkAlt
           className="cursor-pointer"
-          onClick={() => window.open("rootcode.io")}
+          onClick={() => window.open('rootcode.io')}
         />
       </div>
       <div className="flex gap-2 text-sm">
@@ -91,8 +84,8 @@ export const SkillCard = ({
         <h2>{location}</h2>
       </div>
       <div
-        className="before:absolute relative  before:top-0  before:left-[-1.5rem]  before:text-light  before:content-['▼▶'] before:cursor-pointer"
-        onClick={() => window.open("rootcode.io")}
+        className="relative before:absolute  before:left-[-1.5rem]  before:top-0  before:cursor-pointer  before:text-light before:content-['▼▶']"
+        onClick={() => window.open('rootcode.io')}
       >
         <p>
           <ul>
@@ -104,14 +97,14 @@ export const SkillCard = ({
 apple.com/pro-display-xdr/"
                 target="_blank"
               ></a> */}
-                <p className="text-main truncate  ">{item}</p>
+                <p className="truncate text-main  ">{item}</p>
               </li>
             ))}
           </ul>
         </p>
         <h1>Technologies & Tools</h1>
-        <div className="flex gap-2 flex-wrap">
-          <TechTag technology="React" />
+        <div className="flex flex-wrap gap-2">
+          
           {tech.map((item, index) => (
             <TechTag key={index} technology={item} />
           ))}

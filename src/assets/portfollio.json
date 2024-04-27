@@ -1,6 +1,13 @@
 {
-  "languages":["JavaScript (ES6+)","Typescript","HTML", "CSS","NodeJS","C#.net"],
-  "other":["micro services","SOLID","CI/CD","VIM"],
+  "languages": [
+    "JavaScript (ES6+)",
+    "Typescript",
+    "HTML",
+    "CSS",
+    "NodeJS",
+    "C#.net"
+  ],
+  "other": ["micro services", "SOLID", "CI/CD", "VIM"],
   "technologies": [
     "NextJs|Vite|Webpack",
     "Reactquery|Zustand|RTK|Redux| Mobx",
@@ -10,6 +17,106 @@
     "StoryBook|Jest|RTL",
     "Docker|Fastlane|Codemagic| Firebase App distribution",
     "Sentry|Mailchimp|FCM"
+  ],
+  "work": [
+    {
+      "companyName": "Open source",
+      "companyUrl": "",
+      "projectName": "Circular progress bar",
+      "image": "work/progress-bar.gif",
+      "description": "My leave application for ROOTCODE",
+      "tech": [
+        " GCP",
+        "looker studio",
+        "Big query",
+        "Fastlane",
+        "atomic design",
+        "Jest",
+        "RTL"
+      ],
+      "url": "https://github.com/baby-journey/rn-segmented-progress-bar"
+    },
+    {
+      "companyName": "Root code",
+      "companyUrl": "https://rootcode.io/en",
+      "projectName": "My Leave",
+      "image": "work/babyjourney.png",
+      "description": "My leave application for ROOTCODE",
+      "url": "https://myleave.io/",
+      "tech": [
+        " GCP",
+        "looker studio",
+        "Big query",
+        "Fastlane",
+        "atomic design",
+        "Jest",
+        "RTL"
+      ]
+    },
+    {
+      "companyName": "Baby Journey",
+      "projectName": "My leave",
+      "image": "work/babyjourney.png",
+      "description": "My leave application for ROOTCODE",
+      "url": "https://github.com/baby-journey/rn-segmented-progress-bar",
+      "tech": [
+        " GCP",
+        "looker studio",
+        "Big query",
+        "Fastlane",
+        "atomic design",
+        "Jest",
+        "RTL"
+      ]
+    },
+    {
+      "companyName": "Millum",
+      "projectName": "Millum commerce",
+      "image": "work/millum.png",
+      "description": "My leave application for ROOTCODE",
+      "url": "https://github.com/baby-journey/rn-segmented-progress-bar",
+      "tech": [
+        " GCP",
+        "looker studio",
+        "Big query",
+        "Fastlane",
+        "atomic design",
+        "Jest",
+        "RTL"
+      ]
+    },
+    {
+      "companyName": "Verico",
+      "projectName": "Verico Permitto",
+      "image": "work/permitto.png",
+      "description": "My leave application for ROOTCODE",
+      "url": "https://www.npmjs.com/package/@baby-journey/rn-segmented-progress-bar",
+      "tech": [
+        " GCP",
+        "looker studio",
+        "Big query",
+        "Fastlane",
+        "atomic design",
+        "Jest",
+        "RTL"
+      ]
+    },
+    {
+      "companyName": "KTV",
+      "projectName": "Blue tag",
+      "image": "work/permitto.png",
+      "description": "My leave application for ROOTCODE",
+      "url": "https://github.com/baby-journey/rn-segmented-progress-bar",
+      "tech": [
+        " React native",
+        "react-query",
+        " zustand",
+        "formik",
+        "AWS",
+        "Jest",
+        "RTL"
+      ]
+    }
   ],
   "career": [
     {
