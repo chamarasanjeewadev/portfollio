@@ -27,7 +27,7 @@ export const Experience = () => {
           onClick={() => window.open("/resume_chamara_sanjeewa.pdf")}
         />
       </div>
-      <div className="grid grid-cols-3 mt-2">
+      <div className="grid grid-cols-3 mt-2 ">
         <div className="item1 col-span-1 ">
           <div className="flex flex-col gap-2">
             <LeftSection title="Languages" content={languages} />
@@ -38,7 +38,7 @@ export const Experience = () => {
             <LeftSection title="Other" content={other} />
           </div>
         </div>
-        <div className="item2 col-span-2">
+        <div className="item2 col-span-2 flex flex-col gap-10">
           {carrier.map(x => (
             <SkillCard {...x} />
           ))}
@@ -76,7 +76,7 @@ export const SkillCard = ({
   tech,
 }: SkillCardProps) => {
   return (
-    <div className="flex flex-col gap-2 text-left text-wrap md:group-hover:bg-slate-800/50">
+    <div className="flex  flex-col gap-2 text-left text-wrap md:group-hover:bg-slate-800/50 relative">
       <div className="flex gap-2 items-center ">
         <h1>{companyName}</h1>
         <FaExternalLinkAlt
@@ -84,25 +84,38 @@ export const SkillCard = ({
           onClick={() => window.open("rootcode.io")}
         />
       </div>
-      <h2>
-        {durationFrom} - {durationTo}
-      </h2>
-      <h2>{location}</h2>
-      <p>
-        <ul>
-          {jd.map((item, index) => (
-            <li key={index}>
-              <p className="text-[#808dad]">{item}</p>
-            </li>
+      <div className="flex gap-2 text-sm">
+        <h1>
+          {durationFrom} - {durationTo}
+        </h1>
+        <h2>{location}</h2>
+      </div>
+      <div
+        className="before:absolute relative  before:top-0  before:left-[-1.5rem]  before:text-light  before:content-['▼▶'] before:cursor-pointer"
+        onClick={() => window.open("rootcode.io")}
+      >
+        <p>
+          <ul>
+            {[jd?.[0]].map((item, index) => (
+              <li key={index} className=" ">
+                {/* <a
+                className="text-sky-400 after:content-['_↗'] ..."
+                href="https://www.
+apple.com/pro-display-xdr/"
+                target="_blank"
+              ></a> */}
+                <p className="text-main truncate  ">{item}</p>
+              </li>
+            ))}
+          </ul>
+        </p>
+        <h1>Technologies & Tools</h1>
+        <div className="flex gap-2 flex-wrap">
+          <TechTag technology="React" />
+          {tech.map((item, index) => (
+            <TechTag key={index} technology={item} />
           ))}
-        </ul>
-      </p>
-      <h1>Technologies & Tools</h1>
-      <div className="flex gap-2 flex-wrap">
-        <TechTag technology="React" />
-        {tech.map((item, index) => (
-          <TechTag key={index} technology={item} />
-        ))}
+        </div>
       </div>
     </div>
   );

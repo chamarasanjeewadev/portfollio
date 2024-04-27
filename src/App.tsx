@@ -1,4 +1,4 @@
-import "./App.css";
+// import "./App.css";
 import { AboutMe } from "./components/About";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
@@ -9,9 +9,9 @@ import { Projects } from "./components/Projects";
 
 function App() {
   return (
-    <>
+    <div className="bg-gradient-to-r from-[#27314e] to-[#4a044e]">
       <Header />
-      <main>
+      <main className="md:mx-20 ">
         <Hero />
         <Experience />
         <Projects />
@@ -19,7 +19,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 
