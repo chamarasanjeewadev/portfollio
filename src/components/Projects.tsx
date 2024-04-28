@@ -5,7 +5,7 @@ import { TechTag } from './Experience';
 export const Projects = () => {
   const work: WorkProps[] = careerInfo.work;
   return (
-    <section id="projects" className="mb-2 min-h-screen">
+    <section id="projects" className="mb-20 min-h-screen">
       <TitleText text="Projects" />
       <p>Here are some projects i have worked on</p>
       <div className=" grid grid-cols-3 gap-2">

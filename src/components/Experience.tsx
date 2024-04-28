@@ -4,6 +4,7 @@ import { TitleText } from '../atoms/Title';
 import careerInfo from './../assets/portfollio.json';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import { cn } from '../utils/cnUtil';
+import { LinkText } from '../atoms/LinkText';
 
 export const Experience = () => {
   const carrier: SkillCardProps[] = careerInfo.career;
@@ -11,23 +12,10 @@ export const Experience = () => {
   const languages: string[] = careerInfo.languages;
   const other: string[] = careerInfo.other;
   return (
-    <section id="experience" className="min-h-screen">
+    <section id="experience" className="min-h-screen mb-40">
       <div className="flex content-center justify-between gap-4">
         <TitleText text="Experience" />
-        {/* <div className=" flex items-center gap-2 ">
-          <h3>View resume </h3>
-          <FaExternalLinkAlt
-            className="cursor-pointer"
-            onClick={() => window.open('/resume_chamara_sanjeewa.pdf')}
-          />
-        </div> */}
-        <a
-          className="... text-sky-400 after:content-['_↗']"
-          href="/resume_chamara_sanjeewa.pdf"
-          target="_blank"
-        >
-          View Resume
-        </a>
+        <LinkText text={'View Resume'} link={'/resume_chamara_sanjeewa.pdf'} />
       </div>
       <div className="mt-2 grid grid-cols-3 ">
         <div className="item1 col-span-1 ">
@@ -105,14 +93,11 @@ export const SkillCard = ({
             {(!showAll ? [jd?.[0]] : [...jd]).map((item, index) => (
               <li key={index} className=" ">
                 <p
-                  // className={cn(' truncate text-wrap text-main ', {
-                  //   truncate: showAll,
-                  // })}
-                  className={cn(' text-main flex-wrap ', {
+                  className={cn(' flex-wrap text-main ', {
                     'truncate ': !showAll,
                   })}
                 >
-                  {item}
+                  <BulletText>{item}</BulletText>
                 </p>
               </li>
             ))}

@@ -125,11 +125,11 @@
       "location": "Sakala, Estonia (remote)",
       "companyWeb": "https://www.rootcode.io/",
       "jd": [
-        "Engagedinarchitecturallyshapingamulti-tenantproductonAWS,incorporating Google Calendar, Stripe,Slack integrations and federated authentications configured on OAuth",
-        "Offered guidance/ leadership to several teams in resolving technical challenges with in the organization.",
-        "InitiatedCI/CDautomationthroughGitHubActions,semanticreleases,Slack notifications and related technologies resulting in a significant reduction in feature deployment time.",
-        "ActivelyinvolvedinReact,ReactNativeandnodeJSdevelopment,advocatingfor Test-Driven Development (TDD) using Jest and React Testing Library.",
-        "Conducted random pair programming sessions to mentorjuniorswhilefollowing agile scrum"
+        "Engaged in architecturally shaping a multi-tenant product on AWS, incorporating Google Calendar, Stripe,Slack integrations and federated authentications configured on OAuth",
+        "Offered guidance/ leadership to several teams in resolving technical challenges with in the organization",
+        "Initiated CI/CD automation through GitHub Actions, semantic releases, Slack notifications and related technologies resulting in a significant reduction in feature deployment time.",
+        "Actively involved in React, React Native and nodeJS development, advocating for Test-Driven Development(TDD) using Jest and React Testing Library.",
+        "Conducted random pair programming sessions to mentor juniors while following agile scrum"
       ],
       "tech": [
         "React",
@@ -162,28 +162,99 @@
       "location": "Sakala, Estonia (remote)",
       "companyWeb": "https://babyjourney.se/",
       "jd": [
-        "Contributedonfullstackdevelopmentwithreact/Vitebasedbackofficeproduct, React Native app and GCP cloud functions with nodeJS as backend.",
-        "RevampedlegacyReactcodebaseinalignmentwithatomicarchitecture, implementing a range of optimizations such as lazy loading, error boundaries, suspense, custom hooks and more. This initiative led to a notable decrease in duplications,streamliningdevelopmentefforts,andculminatedina20%reduction in the total bundle size.",
-        "Crafted a scalable component library that enforced accessibility and fluency across the application",
-        "InitiatedCI/CDautomationthroughGitHubActions,semanticreleases,Slack notifications and related technologies resulting in a significant reduction in feature deployment time.",
-        "Implementedbestpractices,incorporatingtoolssuchasESLint,lint-staged,Git Hooks, and performing unit testing using Jest and React Testing Library (RTL)."
+        "Contributed on full stack development with react/Vite based backoffice product, React Native app and GCP cloud functions with nodeJS as backend.",
+        "Revamped legacy React codebase in alignment with atomic architecture, implementing a range of optimizations such as lazy loading, error boundaries, suspense, custom hooks and more. This initiative led to a notable decrease in duplications, streamlining development efforts, and culminated in a 20% reduction in the total bundle size.",
+        "Implemented best practices, incorporating tools such as ESLint, lint-staged, Git hooks, and performing unit testing using Jest and React Testing Library (RTL)."
+      ],
+      "tech": [
+        "NodeJS",
+        " ExpressJS",
+        " React",
+        " React native",
+        " Vite",
+        " ContextAPI",
+        " react-hook-forms",
+        " firebase",
+        " firestore",
+        " Firebase A/B testing",
+        " GCP",
+        " looker studio",
+        " Big query",
+        " Fastlane",
+        "atomic design",
+        " Jest",
+        " RTL"
+      ]
+    },
+
+    {
+      "companyName": "VERICO PERMITTO | senior developer",
+      "durationFrom": "2018",
+      "durationTo": "2021",
+      "location": " Stavanger, Norway (remote)",
+      "companyWeb": "https://www.gridvision.com/solutions-and-services/permitto/",
+      "jd": [
+        "Led a team of four with full stack development using react, react native and .net back-end.",
+        "Played a key role in implementing the integration of geolocation tracking with offline support for Android and iOS applications using React Native. This functionality became one of the most utilized features within the mobile app.",
+        "Employed Jest and cypress for front-end testing and utilized NUnitfor backend testing in the .NET environment.",
+        "Collaborated on pair programming sessions with norwegian team members."
       ],
       "tech": [
         "React",
-        "React native",
-        "Vite",
-        "ContextAPI",
-        "react-hook-forms",
-        "firebase",
-        "firestore",
-        "Firebase A/B testing",
-        " GCP",
-        "looker studio",
-        "Big query",
-        "Fastlane",
-        "atomic design",
-        "Jest",
-        "RTL"
+        "react native",
+        "mobx",
+        "agGrid",
+        "web API",
+        "C#",
+        ".net core",
+        "react-native-background-geolocation",
+        "PLSQL"
+      ]
+    },
+    {
+      "companyName": "MILLUM | Senior developer",
+      "durationFrom": "2016",
+      "durationTo": "2018",
+      "location": "Oslo, Norway (remote)",
+      "companyWeb": "https://www.millum.no/",
+      "jd": [
+        "Refactored ASP.net MVC application to Angular 2, which helped to increase user experience thus observed drastic increase in orders via millum web portal",
+        "Contributed on quick completion of millum commerce mobile app with ionic2 and angular2 with Typescript support in 3 months which resulted in a considerable increase of order submissions via mobile.",
+        "Played lead role/ Scrum master role of maintaining code quality through peer reviews and pull requests."
+      ],
+      "tech": [
+        "C#",
+        "Asp.net MVC",
+        "CQRS",
+        "Domain driven design",
+        "Entity framework",
+        "Ionic2",
+        "Angular 2",
+        "Typescript",
+        "Mongo db",
+        "micro services",
+        "MSSQL"
+      ]
+    },
+    {
+      "companyName": "BLUE TAG | Senior developer",
+      "durationFrom": "2014",
+      "durationTo": "2016",
+      "location": "Stavanger, Norway (remote)",
+      "companyWeb": "https://bluetag.no/en/",
+      "jd": [
+        "Played lead role of managing 10-12 team members on fast tracked development with scrum/ Kanban methodologies.",
+        "Restructured an ASP.NET application to use MVC with Razor views and subsequently integrating AngularJS to enhance and accommodate expanding dynamic functionalities",
+        "Utilized tools such as Jenkins, SonarQube to measure code coverage and to improve code quality."
+      ],
+      "tech": [
+        "C#",
+        "ASP.net MVC",
+        "Razor",
+        "angularJS",
+        "knockoutJS",
+        "Javascript",
+        "TypeScript"
       ]
     }
   ]
