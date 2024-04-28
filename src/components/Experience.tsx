@@ -3,7 +3,6 @@ import { BulletText } from '../atoms/BulletText';
 import { TitleText } from '../atoms/Title';
 import careerInfo from './../assets/portfollio.json';
 import { FaExternalLinkAlt } from 'react-icons/fa';
-import clsx from 'clsx';
 import { cn } from '../utils/cnUtil';
 
 export const Experience = () => {
@@ -13,7 +12,7 @@ export const Experience = () => {
   const other: string[] = careerInfo.other;
   return (
     <section id="experience" className="min-h-screen">
-      <div className="flex content-center justify-between gap-2">
+      <div className="flex content-center justify-between gap-4">
         <TitleText text="Experience" />
         {/* <div className=" flex items-center gap-2 ">
           <h3>View resume </h3>
@@ -119,8 +118,7 @@ export const SkillCard = ({
             ))}
           </ul>
         </p>
-        <h1>Technologies & Tools</h1>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 pt-2">
           {tech.map((item, index) => (
             <TechTag key={index} technology={item} />
           ))}

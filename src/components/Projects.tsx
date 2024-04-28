@@ -5,10 +5,10 @@ import { TechTag } from './Experience';
 export const Projects = () => {
   const work: WorkProps[] = careerInfo.work;
   return (
-    <section id="projects" className="min-h-screen mb-2">
+    <section id="projects" className="mb-2 min-h-screen">
       <TitleText text="Projects" />
       <p>Here are some projects i have worked on</p>
-      <div className="mt-6 grid grid-cols-3 gap-2">
+      <div className=" grid grid-cols-3 gap-2">
         {work.map(x => (
           <ProjectCard {...x} />
         ))}
@@ -27,21 +27,26 @@ export const Projects = () => {
   );
 };
 
-export const ProjectCard = ({ companyName, image, description,tech }: WorkProps) => {
+export const ProjectCard = ({
+  companyName,
+  image,
+  description,
+  tech,
+}: WorkProps) => {
   return (
-    <div className=" flex flex-col items-center gap-2 text-center  ">
-      <div className="flex h-80 w-[80%]  items-center justify-center rounded-lg bg-green-400">
+    <div className="  flex flex-col items-center gap-2 bg-green-400/10  text-center overflow-hidden rounded-lg hover:bg-green-400/20 cursor-pointer  ">
         <img
           src={image}
-          className=" h-[100%] w-[100%] rounded-lg object-contain"
+          className=" h-48 w-full object-cover"
         />
-      </div>
-      <h1>{companyName}</h1>
-      <p>{description}</p>
-      <div className='flex gap-2 flex-wrap items-center'>
-        {tech.map((item, index) => (
-          <TechTag key={index} technology={item} />
-        ))}
+      <div>
+        <h1>{companyName}</h1>
+        <p>{description}</p>
+        <div className="flex flex-wrap items-center justify-center gap-2 pt-2">
+          {tech.map((item, index) => (
+            <TechTag key={index} technology={item} />
+          ))}
+        </div>
       </div>
     </div>
   );
