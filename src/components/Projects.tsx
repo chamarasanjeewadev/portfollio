@@ -1,5 +1,4 @@
 import { TitleText } from '../atoms/Title';
-
 import careerInfo from './../assets/portfollio.json';
 import { TechTag } from './Experience';
 export const Projects = () => {
