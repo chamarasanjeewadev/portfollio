@@ -19,27 +19,10 @@
   ],
   "work": [
     {
-      "companyName": "Open source",
-      "companyUrl": "",
-      "projectName": "Circular progress bar",
-      "image": "work/progress-bar.gif",
-      "description": "My leave application for ROOTCODE",
-      "tech": [
-        " GCP",
-        "looker studio",
-        "Big query",
-        "Fastlane",
-        "atomic design",
-        "Jest",
-        "RTL"
-      ],
-      "url": "https://github.com/baby-journey/rn-segmented-progress-bar"
-    },
-    {
       "companyName": "Root code",
       "companyUrl": "https://rootcode.io/en",
       "projectName": "My Leave",
-      "image": "work/babyjourney.png",
+      "image": "work/myleave.png",
       "description": "My leave application for ROOTCODE dsfsdaf sdfsadf fsadfsadf sdfsadfas",
       "url": "https://myleave.io/",
       "tech": [
@@ -103,7 +86,7 @@
     {
       "companyName": "KTV",
       "projectName": "Blue tag",
-      "image": "work/permitto.png",
+      "image": "work/bluetag.png",
       "description": "My leave application for ROOTCODE",
       "url": "https://github.com/baby-journey/rn-segmented-progress-bar",
       "tech": [
@@ -115,6 +98,23 @@
         "Jest",
         "RTL"
       ]
+    },
+    {
+      "companyName": "Open source",
+      "companyUrl": "",
+      "projectName": "Circular progress bar",
+      "image": "work/progress-bar.gif",
+      "description": "My leave application for ROOTCODE",
+      "tech": [
+        " GCP",
+        "looker studio",
+        "Big query",
+        "Fastlane",
+        "atomic design",
+        "Jest",
+        "RTL"
+      ],
+      "url": "https://github.com/baby-journey/rn-segmented-progress-bar"
     }
   ],
   "career": [

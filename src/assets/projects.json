@@ -1,0 +1,75 @@
+{
+  "projects": [
+    {
+      "year": "2023-2024",
+      "name": "My leave",
+      "url": "",
+      "teckStack": ["", "", "", "", "", "", ""],
+      "contribution": "Was responsible for over all the development of this project. Contributed on full stack development with react/Vite based backoffice product, React Native app and GCP cloud functions with nodeJS as backend."
+    },
+    {
+        "year": "2022",
+        "name": "Systemate",
+        "url": "",
+        "teckStack": ["react native", "", "", "", "", "", ""],
+        "contribution": "Worked as a freelance mobile developer"
+      },
+    {
+      "year": "2022",
+      "name": "Baby journey",
+      "url": "",
+      "teckStack": ["", "", "", "", "", "", ""],
+      "contribution": "Contributed as a full stack developer with react/Vite based backoffice product, React Native app and GCP cloud functions with nodeJS as backend."
+    },
+    {
+      "year": "2018-2021",
+      "name": "Verico",
+      "url": "Paid",
+      "teckStack": [
+        "GCP",
+        "looker studio",
+        "Big query",
+        "Fastlane",
+        "atomic design",
+        "Jest",
+        "RTL"
+      ],
+      "contribution": "Led 4 member scrum team along with norwegian team. Contributed on full stack development with react/Vite based backoffice product, React Native app and GCP cloud functions with nodeJS as backend."
+    },
+    {
+      "year": "2016-2018",
+      "name": "Millum commerce",
+      "url": "",
+      "teckStack": ["", "", "", "", "", "", ""],
+      "contribution": "Micro service based application. Contributed on full stack development with react/Vite based backoffice product, React Native app and GCP cloud functions with nodeJS as backend."
+    },
+    {
+      "year": "2014-2016",
+      "name": "",
+      "url": "",
+      "teckStack": ["", "", "", "", "", "", ""],
+      "contribution": "Content management system. Contributed on full stack development with react/Vite based backoffice product, React Native app and GCP cloud functions with nodeJS as backend."
+    },
+    {
+      "year": "2012-2014",
+      "name": "Trivial life",
+      "url": "",
+      "teckStack": ["", "", "", "", "", "", ""],
+      "contribution": "Contributed as senior .net developer. Project was not a success due to various technical issues."
+    },
+    {
+      "year": "2011-2012",
+      "name": "Bright vision",
+      "url": "",
+      "teckStack": ["", "", "", "", "", "", ""],
+      "contribution": "Courier management system."
+    },
+    {
+      "year": "2008-2010",
+      "name": "Assesment tax system",
+      "url": "",
+      "teckStack": ["C#", "", "", "", "", "", ""],
+      "contribution": ""
+    }
+  ]
+}

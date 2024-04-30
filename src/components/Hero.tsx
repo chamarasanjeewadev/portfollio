@@ -1,12 +1,9 @@
 import { Button } from '../atoms/Button';
 import PortfolioImg from './../assets/profile-photo.jpeg';
 import { TitleText } from '../atoms/Title';
-import {
-  FaExternalLinkAlt,
-  FaGithub,
-  FaLinkedin,
-  FaMedium,
-} from 'react-icons/fa';
+
+import { FaSquareGithub, FaLinkedin } from 'react-icons/fa6';
+import { FaMedium } from 'react-icons/fa';
 import { LinkText } from '../atoms/LinkText';
 
 export const Hero = () => {
@@ -15,7 +12,7 @@ export const Hero = () => {
       <div className="flex flex-1 flex-col items-start justify-center   gap-2 px-2 font-sans  font-bold  ">
         <TitleText text="Hello," />
         <h1 className="text-5xl font-bold">
-          <span> I'm</span> Chamara{' '}
+          <span> I'm</span> Chamara
           <span className="text-blue-500"> sanjeewa</span>
         </h1>
         <h2>Full stack developer</h2>
@@ -25,10 +22,11 @@ export const Hero = () => {
           .NET Core. Throughout my career, I have worked on multiple projects
           with different clients around the world.
         </p>
-        <ul className="grow-1 flex items-center justify-between gap-2 text-2xl text-title align-middle ">
+
+        <ul className="flex justify-between gap-8  text-2xl">
           <li>
             <a href="https://github.com/chamarasanjeewadev">
-              <FaGithub />
+              <FaSquareGithub />
             </a>
           </li>
           <li>
@@ -41,11 +39,14 @@ export const Hero = () => {
               <FaMedium />
             </a>
           </li>
+          <li>
+            <LinkText
+              text={'View Resume'}
+              link={'/resume_chamara_sanjeewa.pdf'}
+              size={'small'}
+            />
+          </li>
         </ul>
-          <LinkText
-            text={'View Resume'}
-            link={'/resume_chamara_sanjeewa.pdf'}
-          />
       </div>
       <div className="hidden flex-1 items-center justify-center align-middle md:flex">
         <img

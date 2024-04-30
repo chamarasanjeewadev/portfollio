@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { BulletText } from '../atoms/BulletText';
 import { TitleText } from '../atoms/Title';
 import careerInfo from './../assets/portfollio.json';
-import { FaExternalLinkAlt } from 'react-icons/fa';
 import { cn } from '../utils/cnUtil';
 import { LinkText } from '../atoms/LinkText';
 
@@ -12,7 +11,7 @@ export const Experience = () => {
   const languages: string[] = careerInfo.languages;
   const other: string[] = careerInfo.other;
   return (
-    <section id="experience" className="min-h-screen mb-40">
+    <section id="experience" className="mb-40 min-h-screen">
       <div className="flex content-center justify-between gap-4">
         <TitleText text="Experience" />
         <LinkText text={'View Resume'} link={'/resume_chamara_sanjeewa.pdf'} />
@@ -59,6 +58,7 @@ export const LeftSection = ({
 
 export const SkillCard = ({
   companyName,
+  companyUrl,
   durationFrom,
   durationTo,
   location,
@@ -68,12 +68,8 @@ export const SkillCard = ({
   const [showAll, setShowAll] = useState(false);
   return (
     <div className="relative  flex flex-col gap-2 text-wrap text-left md:group-hover:bg-slate-800/50">
-      <div className="flex items-center gap-2 ">
-        <h1>{companyName}</h1>
-        <FaExternalLinkAlt
-          className="cursor-pointer"
-          onClick={() => window.open('rootcode.io')}
-        />
+      <div className="flex items-center gap-2 font-bold ">
+        {/* <LinkText text={companyName} link={companyUrl} size={'large'} /> */}
       </div>
       <div className="flex gap-2 text-sm">
         <h1>
