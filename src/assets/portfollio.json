@@ -2,20 +2,20 @@
   "languages": [
     "JavaScript (ES6+)",
     "Typescript",
-    "HTML| CSS",
-    "NodeJS",
-    "C#.net"
+    "C#.net",
+    "HTML | CSS",
+    "NodeJS"
   ],
   "other": ["micro services", "SOLID", "CI/CD", "VIM"],
   "technologies": [
-    "NextJs|Vite|Webpack",
-    "Reactquery|Zustand|RTK|Redux| Mobx",
-    "HTML|CSS|SASS|AntD|MUI| Styled components | Tailwind",
-    "Git/Github|AWSAmplify|AWS Cognito",
-    "Sqlite|mssql|mysql|Mongo| firestore",
-    "StoryBook|Jest|RTL",
-    "Docker|Fastlane|Codemagic| Firebase App distribution",
-    "Sentry|Mailchimp|FCM"
+    "NextJs | Vite | Webpack",
+    "Reactquery | Zustand | RTK | Redux |  Mobx",
+    "HTML | CSS | SASS | AntD | MUI |  Styled components  |  Tailwind",
+    "Git/Github | AWSAmplify | AWS Cognito",
+    "Sqlite  |  mssql | mysql | Mongo| firestore",
+    "StoryBook | Jest|RTL",
+    "Docker | Fastlane | Codemagic |  Firebase App distribution",
+    "Sentry | Mailchimp | FCM"
   ],
   "work": [
     {
@@ -259,3 +259,6 @@
     }
   ]
 }
+
+
+

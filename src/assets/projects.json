@@ -4,21 +4,50 @@
       "year": "2023-2024",
       "name": "My leave",
       "url": "",
-      "teckStack": ["", "", "", "", "", "", ""],
+      "teckStack": [
+        "React",
+        "React native",
+        "C#.net",
+        "ASP.NET Core",
+        "Rabbitmq",
+        "DDD",
+        "architecture",
+        "AWS",
+        "EC2",
+        "Cognito",
+        "amplify",
+        "S3",
+        "Docker",
+        "enkins pipelines",
+        "Github actions",
+        "atomic design",
+        "Jest",
+        "RTL",
+        "Storybooks",
+        "Code magic",
+        "fastlane"
+      ],
       "contribution": "Was responsible for over all the development of this project. Contributed on full stack development with react/Vite based backoffice product, React Native app and GCP cloud functions with nodeJS as backend."
     },
     {
-        "year": "2022",
-        "name": "Systemate",
-        "url": "",
-        "teckStack": ["react native", "", "", "", "", "", ""],
-        "contribution": "Worked as a freelance mobile developer"
-      },
-    {
       "year": "2022",
+      "name": "Systemate",
+      "url": "",
+      "teckStack": ["react native", "Twillio", "Redux toolkit"],
+      "contribution": "Worked as a freelance mobile developer"
+    },
+    {
+      "year": "2022-2023",
       "name": "Baby journey",
       "url": "",
-      "teckStack": ["", "", "", "", "", "", ""],
+      "teckStack": [
+        "NodeJS",
+        "React",
+        "React native",
+        "GCP Cloud functions",
+        "ExpressJS",
+        "Vite"
+      ],
       "contribution": "Contributed as a full stack developer with react/Vite based backoffice product, React Native app and GCP cloud functions with nodeJS as backend."
     },
     {
@@ -26,13 +55,12 @@
       "name": "Verico",
       "url": "Paid",
       "teckStack": [
-        "GCP",
-        "looker studio",
-        "Big query",
-        "Fastlane",
-        "atomic design",
-        "Jest",
-        "RTL"
+        "C#.net",
+        "ASP.net web api",
+        "WCF",
+        "PLSQL with Oracle",
+        "React",
+        "React native"
       ],
       "contribution": "Led 4 member scrum team along with norwegian team. Contributed on full stack development with react/Vite based backoffice product, React Native app and GCP cloud functions with nodeJS as backend."
     },
@@ -40,35 +68,43 @@
       "year": "2016-2018",
       "name": "Millum commerce",
       "url": "",
-      "teckStack": ["", "", "", "", "", "", ""],
+      "teckStack": ["C#.net", "ASP.net MVC", "Ionic 2", "Angular 2"],
       "contribution": "Micro service based application. Contributed on full stack development with react/Vite based backoffice product, React Native app and GCP cloud functions with nodeJS as backend."
     },
     {
       "year": "2014-2016",
-      "name": "",
+      "name": "Blue tag",
       "url": "",
-      "teckStack": ["", "", "", "", "", "", ""],
+      "teckStack": [
+        "C#.net",
+        "ASP.net MVC",
+        "AngularJS",
+        "",
+        "knockoutJs",
+        "Telerik",
+        "Entity framework"
+      ],
       "contribution": "Content management system. Contributed on full stack development with react/Vite based backoffice product, React Native app and GCP cloud functions with nodeJS as backend."
     },
     {
       "year": "2012-2014",
       "name": "Trivial life",
       "url": "",
-      "teckStack": ["", "", "", "", "", "", ""],
+      "teckStack": ["C#.net", "ASP.net MVC", "Sql server", "Jquery"],
       "contribution": "Contributed as senior .net developer. Project was not a success due to various technical issues."
     },
     {
       "year": "2011-2012",
       "name": "Bright vision",
       "url": "",
-      "teckStack": ["", "", "", "", "", "", ""],
+      "teckStack": ["C#.net", "WPF", "Sql server"],
       "contribution": "Courier management system."
     },
     {
       "year": "2008-2010",
       "name": "Assesment tax system",
       "url": "",
-      "teckStack": ["C#", "", "", "", "", "", ""],
+      "teckStack": ["C#.net", "Windows forms", "nHibernate", "My sql"],
       "contribution": ""
     }
   ]

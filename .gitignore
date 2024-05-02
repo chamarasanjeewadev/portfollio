@@ -3,7 +3,7 @@
 node_modules
 yarn-error.log
 package-lock.json
-
+dist/
 # Build directory
 /public
 .DS_Store

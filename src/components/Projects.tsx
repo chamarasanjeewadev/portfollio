@@ -3,6 +3,7 @@ import { TitleText } from '../atoms/Title';
 import careerInfo from './../assets/portfollio.json';
 import { TechTag } from './Experience';
 import { LinkText } from '@/atoms/LinkText';
+console.log(me)
 export const Projects = () => {
   const work: WorkProps[] = careerInfo.work;
   return (
@@ -44,7 +45,7 @@ export const ProjectCard = ({
       <img src={image} className=" h-48 w-full object-cover object-left-top" />
       <div>
         {/* <h1>{companyName}</h1> */}
-        {/* <p>{description}</p> */}
+        {}
         <div className="flex flex-wrap items-center justify-center gap-2 py-2">
           {tech.map((item, index) => (
             <TechTag key={index} technology={item} />
@@ -54,3 +55,32 @@ export const ProjectCard = ({
     </div>
   );
 };
+
+           const me={ name   : 'Chamara Sanjeewa',
+                                      mobile : '+44 73 6661 6963',
+                                      whatIdo: 'software development',
+                                      goodAt : ['react','reactNative','nodeJS','.NET','typescript','css'],
+                                      love   : ['family','coding','vim','learning','football'],
+                                      believe: 'Good code is it`s own best documentation.' } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      

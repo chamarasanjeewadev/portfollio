@@ -20,13 +20,14 @@ export const AboutMe = () => {
           <p>
             I have more than 10 plus years of exprience in software industry. I
             have worked with different technologies and tools. I love coding and
-            have been working as a full stack developer in most of the projects.
-            Also i have led multiple teams and directly have worked with
-            norweigian swedish and uk clients
+            have been working as a full stack developer in many projects. I have
+            started my career as a C# developer and gradually build my skillset
+            towards Javascript technologies as well. Also i have led multiple
+            teams and directly have worked with norweigian swedish and uk
+            clients
             <br />
-            My strength is my ability to learn and improve.
           </p>
-          <div className="grid-row-3 grid grid-cols-2 gap-4">
+          {/* <div className="grid-row-3 grid grid-cols-2 gap-4">
             <div>
               <h1>Name</h1>
               <h2>Chamara</h2>
@@ -52,7 +53,7 @@ export const AboutMe = () => {
                 Bachelor of Computer Science 2005 -2008 | Colombo, Sri Lanka
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
