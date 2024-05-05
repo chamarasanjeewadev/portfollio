@@ -3,14 +3,14 @@ import { TitleText } from '../atoms/Title';
 import careerInfo from './../assets/portfollio.json';
 import { TechTag } from './Experience';
 import { LinkText } from '@/atoms/LinkText';
-console.log(me)
+
 export const Projects = () => {
   const work: WorkProps[] = careerInfo.work;
   return (
     <section id="projects" className="mb-20 min-h-screen ">
       <TitleText text="Projects" />
       <p>Here are some projects i have worked on</p>
-      <div className=" mb-4 mt-2 grid grid-cols-3 gap-4">
+      <div className=" md: mb-4 mt-2 grid grid-cols-2 md:grid-cols-3 gap-4">
         {work.map(x => (
           <ProjectCard {...x} />
         ))}
@@ -42,7 +42,10 @@ export const ProjectCard = ({
 }: WorkProps) => {
   return (
     <div className="flex    cursor-pointer flex-col items-center gap-2 overflow-hidden  rounded-2xl  bg-green-400/10 text-center hover:bg-green-400/20  ">
-      <img src={image} className=" h-48 w-full object-cover object-left-top" />
+      <img
+        src={image}
+        className=" h-48 w-full object-cover  md:object-left-top"
+      />
       <div>
         {/* <h1>{companyName}</h1> */}
         {}
@@ -55,32 +58,3 @@ export const ProjectCard = ({
     </div>
   );
 };
-
-           const me={ name   : 'Chamara Sanjeewa',
-                                      mobile : '+44 73 6661 6963',
-                                      whatIdo: 'software development',
-                                      goodAt : ['react','reactNative','nodeJS','.NET','typescript','css'],
-                                      love   : ['family','coding','vim','learning','football'],
-                                      believe: 'Good code is it`s own best documentation.' } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                      
