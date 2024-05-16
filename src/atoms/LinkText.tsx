@@ -20,6 +20,7 @@ const buttonStyles = cva([], {
 type buttonType = VariantProps<typeof buttonStyles> & {
   text: string;
   link: string;
+  size: string;
 };
 
 export const LinkText = ({

@@ -69,7 +69,7 @@ export const SkillCard = ({
   return (
     <div className="relative  flex flex-col gap-2 text-wrap text-left md:group-hover:bg-slate-800/50">
       <div className="flex items-center gap-2 font-bold ">
-        {/* <LinkText text={companyName} link={companyUrl} size={'large'} /> */}
+        <LinkText text={companyName} link={companyUrl} size={'default'} />
       </div>
       <div className="flex gap-2 text-sm">
         <h1>

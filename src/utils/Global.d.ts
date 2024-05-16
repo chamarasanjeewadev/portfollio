@@ -8,10 +8,10 @@ type SkillCardProps = {
   tech: string[];
 };
 
-type WorkProps={
+type WorkProps = {
   companyName: string;
   projectName: string;
-  description:string;
-  image:string;
-  tech:string[];
-}
+  description: string;
+  image: string;
+  tech: string[];
+};

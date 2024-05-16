@@ -12,7 +12,7 @@ export const Route = createRootRoute({
         <Footer />
       </div>
 
-      <TanStackRouterDevtools />
+      {/* <TanStackRouterDevtools /> */}
     </>
   ),
 });

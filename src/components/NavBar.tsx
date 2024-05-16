@@ -6,21 +6,22 @@ import { useState } from 'react';
 import { cn } from '@/lib/utils';
 export const Header = () => {
   const [showHeader, setshowHeader] = useState(false);
+  console.log('show header....', showHeader);
 
   return (
     <header className=" py-30 sticky top-0  z-[20] py-10   md:mx-20">
       <nav className="relative mx-auto flex  flex-row items-center justify-between px-2 ">
         <Logo />
         <GrMenu
-          className="cursor-pointer md:hidden"
+          className="b cursor-pointer md:hidden"
           onClick={() => setshowHeader(x => !x)}
         />
         <ul
           onClick={() => setshowHeader(false)}
           className={cn(
-            'absolute right-0 top-5   flex h-screen     w-[100%] cursor-pointer flex-col items-center gap-4 bg-[#27314e] hover:backdrop-blur-0 md:visible  md:relative md:top-0 md:h-auto md:flex-row md:justify-end md:bg-transparent',
             { visible: showHeader },
-            { hidden: !showHeader },
+            { invisible: !showHeader },
+            'absolute right-0 top-5   flex h-screen    w-[100%] cursor-pointer flex-col items-center gap-4 bg-[#27314e] hover:backdrop-blur-0 md:visible  md:relative md:top-0 md:h-auto md:flex-row md:justify-end md:bg-transparent',
           )}
         >
           <li className="hover:bg-[#27314e]">
@@ -56,7 +57,7 @@ export const Header = () => {
               </TanstackLink>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="about"
               spy={true}
@@ -68,7 +69,7 @@ export const Header = () => {
                 About
               </TanstackLink>
             </Link>
-          </li>
+          </li> */}
 
           <li onClick={() => {}}>
             <Link

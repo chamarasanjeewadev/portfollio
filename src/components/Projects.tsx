@@ -11,8 +11,8 @@ export const Projects = () => {
       <TitleText text="Projects" />
       <p>Here are some projects i have worked on</p>
       <div className=" md: mb-4 mt-2 grid grid-cols-2 md:grid-cols-3 gap-4">
-        {work.map(x => (
-          <ProjectCard {...x} />
+        {work.map((x,index) => (
+          <ProjectCard key={index} {...x} />
         ))}
       </div>
       <div className="mt-8 flex justify-center">
@@ -41,7 +41,7 @@ export const ProjectCard = ({
   tech,
 }: WorkProps) => {
   return (
-    <div className="flex    cursor-pointer flex-col items-center gap-2 overflow-hidden  rounded-2xl  bg-green-400/10 text-center hover:bg-green-400/20  ">
+    <div  className="flex    cursor-pointer flex-col items-center gap-2 overflow-hidden  rounded-2xl  bg-green-400/10 text-center hover:bg-green-400/20  ">
       <img
         src={image}
         className=" h-48 w-full object-cover  md:object-left-top"
