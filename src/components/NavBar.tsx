@@ -6,7 +6,6 @@ import { useState } from 'react';
 import { cn } from '@/lib/utils';
 export const Header = () => {
   const [showHeader, setshowHeader] = useState(false);
-  console.log('show header....', showHeader);
 
   return (
     <header className=" py-30 sticky top-0  z-[20] py-10   md:mx-20">
