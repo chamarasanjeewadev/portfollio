@@ -1,6 +1,5 @@
 import PortfolioImg from './../assets/profile-photo.jpeg';
 import { TitleText } from '../atoms/Title';
-
 import { FaSquareGithub, FaLinkedin } from 'react-icons/fa6';
 import { FaMedium } from 'react-icons/fa';
 import { LinkText } from '../atoms/LinkText';
