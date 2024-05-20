@@ -17,10 +17,17 @@ export const Hero = () => {
         </h1>
         <h2>Full stack developer</h2>
         <p className="font-poppins text-left">
-          I am an experienced full stack developer proficient in a wide range of
-          technologies and frameworks including React, React Native, NodeJS and
-          .NET Core. Throughout my career, I have worked on multiple projects
-          with different clients around the world.
+          I am an experienced Full Stack Developer proficient in React, React
+          Native, Node.js, and .NET Core. Throughout my career, I have
+          collaborated with global clients to deliver innovative and
+          high-quality software solutions. I excel in creating responsive user
+          interfaces and seamless mobile applications, as well as developing
+          robust, scalable back-end systems. My work is characterized by a focus
+          on performance, security, and maintainability. With a versatile
+          approach and strong communication skills, I effectively translate
+          client needs into functional applications. I am passionate about
+          solving challenging problems and delivering impactful digital
+          experiences.
         </p>
 
         <ul className="flex justify-between gap-8  text-2xl">

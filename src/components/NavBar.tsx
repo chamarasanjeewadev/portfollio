@@ -23,7 +23,7 @@ export const Header = () => {
             'absolute right-0 top-5   flex h-screen    w-[100%] cursor-pointer flex-col items-center gap-4 bg-[#27314e] hover:backdrop-blur-0 md:visible  md:relative md:top-0 md:h-auto md:flex-row md:justify-end md:bg-transparent',
           )}
         >
-          <li className="hover:bg-[#27314e]">
+          <li>
             <Link to="home" spy={true} smooth offset={-100}>
               <TanstackLink
                 to="/"
@@ -56,7 +56,7 @@ export const Header = () => {
               </TanstackLink>
             </Link>
           </li>
-          {/* <li>
+          <li>
             <Link
               to="about"
               spy={true}
@@ -68,7 +68,7 @@ export const Header = () => {
                 About
               </TanstackLink>
             </Link>
-          </li> */}
+          </li>
 
           <li onClick={() => {}}>
             <Link

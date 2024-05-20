@@ -4,56 +4,47 @@ export const AboutMe = () => {
   return (
     <section className="h-screen" id="about">
       <TitleText text="About Me" />
-      <div className=" mt-2 grid grid-cols-2 gap-2 ">
-        <div className=" relative py-2 ">
+      <div className=" mt-2 grid md:grid-cols-2 gap-2 px-2 ">
+        <div className=" relative hidden py-2 md:flex ">
           <div className="w-1/2">
             <img
               src="/meetup.webp"
               className="w-[100%] rounded-lg object-cover"
             />
           </div>
-          <div className="absolute bottom-0 right-20 w-[50%] rounded-lg">
+          <div className="absolute top-20 right-20 w-[50%] rounded-lg">
             <img src="/meetup.jpg" className="rounded-lg object-cover" />
           </div>
         </div>
-        <div className="text-left text-main">
+        <div className="md:text-left text-main text-center">
           <p>
-            I have more than 10 plus years of exprience in software industry. I
-            have worked with different technologies and tools. I love coding and
-            have been working as a full stack developer in many projects. I have
-            started my career as a C# developer and gradually build my skillset
-            towards Javascript technologies as well. Also i have led multiple
-            teams and directly have worked with norweigian swedish and uk
-            clients
+            Hello! I am a seasoned Full Stack Web Developer with over 14 years
+            of extensive experience in delivering high-quality software
+            solutions. My expertise spans across C#.NET, React, React Native,
+            TypeScript, and Node.js, among other technologies. I have had the
+            privilege of collaborating with diverse clients from the UK and
+            Scandinavian countries, contributing to a variety of innovative
+            projects across multiple industries.
+            <br />
+            My journey in the tech industry has equipped me with a deep
+            understanding of both front-end and back-end development. On the
+            front end, I excel in building responsive and dynamic user
+            interfaces using React and TypeScript. My proficiency in React
+            Native enables me to create seamless cross-platform mobile
+            applications that offer exceptional user experiences.
+            <br />
+            On the back end, I specialize in developing robust and scalable
+            applications using C#.NET and Node.js. I am adept at designing and
+            implementing RESTful APIs, managing databases, and ensuring the
+            performance and security of web applications.
+            <br />
+            Throughout my career, I have been driven by a passion for learning
+            and adapting to the ever-evolving technology landscape. My
+            collaborative approach, attention to detail, and commitment to best
+            practices have consistently resulted in successful project
+            deliveries and satisfied clients.
             <br />
           </p>
-          {/* <div className="grid-row-3 grid grid-cols-2 gap-4">
-            <div>
-              <h1>Name</h1>
-              <h2>Chamara</h2>
-            </div>
-            <div>
-              <h1>Email</h1>
-              <h2>Chamara.sanjeewa@gmail.com</h2>
-            </div>
-            <div>
-              <h1>Education</h1>
-              <div>
-                <h1>
-                  UNIVERSITY OF COLOMBO{' '}
-                  <span> Master of Computer Science </span>| 2010 -2012
-                </h1>
-                Colombo, Sri Lanka
-              </div>
-              <div>
-                Master of Business administration 2012 -2014 | Colombo, Sri
-                Lanka
-              </div>
-              <div>
-                Bachelor of Computer Science 2005 -2008 | Colombo, Sri Lanka
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     </section>
