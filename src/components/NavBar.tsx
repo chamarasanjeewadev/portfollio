@@ -75,7 +75,7 @@ export const Header = () => {
               to="contact"
               spy={true}
               smooth
-              offset={100}
+              offset={-300}
               onClick={() => setshowHeader(false)}
             >
               <TanstackLink to="/" onClick={() => setshowHeader(false)}>
