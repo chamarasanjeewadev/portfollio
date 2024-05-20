@@ -1,4 +1,3 @@
-import { Button } from '../atoms/Button';
 import PortfolioImg from './../assets/profile-photo.jpeg';
 import { TitleText } from '../atoms/Title';
 
