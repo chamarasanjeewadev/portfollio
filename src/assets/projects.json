@@ -3,7 +3,7 @@
     {
       "year": "2023-2024",
       "name": "My leave",
-      "url": "",
+      "url": "https://rootcode.myleave.io/",
       "teckStack": [
         "React",
         "React native",
@@ -32,14 +32,14 @@
     {
       "year": "2022",
       "name": "Systemate",
-      "url": "",
+      "url": "https://systemate.com/home/",
       "teckStack": ["react native", "Twillio", "Redux toolkit"],
       "contribution": "Worked as a freelance mobile developer"
     },
     {
       "year": "2022-2023",
       "name": "Baby journey",
-      "url": "",
+      "url": "https://babyjourney.se/",
       "teckStack": [
         "NodeJS",
         "React",
@@ -67,7 +67,7 @@
     {
       "year": "2016-2018",
       "name": "Millum commerce",
-      "url": "",
+      "url": "https://commerce.millum.no/",
       "teckStack": ["C#.net", "ASP.net MVC", "Ionic 2", "Angular 2"],
       "contribution": "Micro service based application. Contributed on full stack development with react/Vite based backoffice product, React Native app and GCP cloud functions with nodeJS as backend."
     },

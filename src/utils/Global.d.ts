@@ -14,4 +14,5 @@ type WorkProps = {
   description: string;
   image: string;
   tech: string[];
+  url?: string;
 };

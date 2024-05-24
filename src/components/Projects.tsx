@@ -35,20 +35,19 @@ export const Projects = () => {
 };
 
 export const ProjectCard = ({
-  companyName,
+  companyName,url,
   image,
   description,
   tech,
 }: WorkProps) => {
   return (
-    <div  className="flex    cursor-pointer flex-col items-center gap-2 overflow-hidden  rounded-2xl  bg-green-400/10 text-center hover:bg-green-400/20  ">
+    <div onClick={() => window.open(url, '_blank')}  className="flex    cursor-pointer flex-col items-center gap-2 overflow-hidden  rounded-2xl  bg-green-400/10 text-center hover:bg-green-400/20  ">
       <img
         src={image}
         className=" h-48 w-full object-cover  md:object-left-top"
       />
       <div>
         {/* <h1>{companyName}</h1> */}
-        {}
         <div className="flex flex-wrap items-center justify-center gap-2 py-2">
           {tech.map((item, index) => (
             <TechTag key={index} technology={item} />
