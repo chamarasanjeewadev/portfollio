@@ -6,16 +6,25 @@ import { Hero } from './components/Hero';
 import { Header } from './components/NavBar';
 import { Experience } from './components/Experience';
 import { Projects } from './components/Projects';
+import { useCallback, useEffect, useState } from 'react';
+import { getPortfolio } from './services/portfollioService';
 
 function App() {
+  const [careerInfo, setCarrierData] = useState<SkillCardProps>();
+  const getPortfolioData = useCallback(async () => {
+    const portfolio: SkillCardProps = await getPortfolio();
+    setCarrierData(portfolio);
+  }, []);
+
+  useEffect(() => {
+    getPortfolioData();
+  }, []);
   return (
-    // <div className="bg-gradient-to-r from-[#27314e] to-[#4a044e]">
     <>
-      {/* <Header /> */}
       <main className="md:mx-20 ">
         <Hero />
-        <Experience />
-        <Projects />
+        <Experience careerInfo={careerInfo} />
+        <Projects work={careerInfo?.work ?? []} />
         <AboutMe />
         <Contact />
       </main>

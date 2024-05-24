@@ -1,11 +1,9 @@
 import { Link } from '@tanstack/react-router';
 import { TitleText } from '../atoms/Title';
-import careerInfo from './../assets/portfollio.json';
 import { TechTag } from './Experience';
 import { LinkText } from '@/atoms/LinkText';
 
-export const Projects = () => {
-  const work: WorkProps[] = careerInfo.work;
+export const Projects = ({work}:{work: WorkProps[]}) => {
   return (
     <section id="projects" className="mb-20 min-h-screen ">
       <TitleText text="Projects" />

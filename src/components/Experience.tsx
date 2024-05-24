@@ -4,18 +4,18 @@ import { TitleText } from '../atoms/Title';
 // import careerInfo from './../assets/portfollio.json';
 import { cn } from '../utils/cnUtil';
 import { LinkText } from '../atoms/LinkText';
-import { getPortfolio } from '../services/portfollioService';
+// import { getPortfolio } from '../services/portfollioService';
 
-export const Experience = () => {
-  const [careerInfo, setCarrierData] = useState<SkillCardProps>();
-  const getPortfolioData = useCallback(async () => {
-    const portfolio: SkillCardProps = await getPortfolio();
-    console.log(portfolio)
-    setCarrierData(portfolio);
-  }, []);
-  useEffect(() => {
-    getPortfolioData();
-  }, []);
+export const Experience = ({careerInfo}:{careerInfo:SkillCardProps}) => {
+  // const [careerInfo, setCarrierData] = useState<SkillCardProps>();
+  // const getPortfolioData = useCallback(async () => {
+  //   const portfolio: SkillCardProps = await getPortfolio();
+  //   setCarrierData(portfolio);
+  // }, []);
+
+  // useEffect(() => {
+  //   getPortfolioData();
+  // }, []);
 
   const carrier: SkillCardProps[] = careerInfo?.career ?? [];
   const technologies: string[] = careerInfo?.technologies;
@@ -59,9 +59,7 @@ export const LeftSection = ({
     <div className="flex flex-col gap-2 text-left">
       <h1>{title}</h1>
       <ul className="">
-        {content?.map(technology => (
-          <BulletText>{technology}</BulletText>
-        ))}
+        {content?.map(technology => <BulletText>{technology}</BulletText>)}
       </ul>
     </div>
   );
