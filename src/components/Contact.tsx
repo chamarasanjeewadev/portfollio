@@ -14,7 +14,7 @@ export const Contact = () => {
           exploring how we can create amazing digital solutions together.
         </p>
         <div className='flex gap-2 items-center'>
-          <InBadge />
+          {/* <InBadge /> */}
 
           <LinkText text={'Email me'} link="mailto:chamara.sanjeewa@gmail" />
         </div>
