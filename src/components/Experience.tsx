@@ -18,6 +18,7 @@ export const Experience = ({careerInfo}:{careerInfo:SkillCardProps}) => {
   // }, []);
 
   const carrier: SkillCardProps[] = careerInfo?.career ?? [];
+  console.log("carrier",carrier)
   const technologies: string[] = careerInfo?.technologies;
   const languages: string[] = careerInfo?.languages;
   const other: string[] = careerInfo?.other;
@@ -39,8 +40,8 @@ export const Experience = ({careerInfo}:{careerInfo:SkillCardProps}) => {
           </div>
         </div>
         <div className="item2 col-span-2 flex flex-col gap-10">
-          {carrier.map(x => (
-            <SkillCard {...x} />
+          {carrier.map(carrierInfo => (
+            <SkillCard {...carrierInfo} />
           ))}
         </div>
       </div>
@@ -75,6 +76,7 @@ export const SkillCard = ({
   tech,
 }: SkillCardProps) => {
   const [showAll, setShowAll] = useState(false);
+  console.log("company url",companyUrl)
   return (
     <div className="relative  flex flex-col gap-2 text-wrap text-left md:group-hover:bg-slate-800/50">
       <div className="flex items-center gap-2 font-bold ">

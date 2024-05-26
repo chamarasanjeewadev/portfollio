@@ -1,5 +1,6 @@
 type SkillCardProps = {
   companyName: string;
+  companyUrl: string;
   durationFrom: string;
   durationTo: string;
   location: string;
