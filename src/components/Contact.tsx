@@ -1,8 +1,9 @@
 import { LinkText } from '@/atoms/LinkText';
+import InBadge from './InBadge';
 
 export const Contact = () => {
   return (
-    <section id="contact" className="h-[50vh]">
+    <section id="contact" className="h-[55vh]">
       {/* <TitleText text="Contact Me" /> */}
       <h1 className="mb-6 text-center text-3xl font-bold text-title">
         Connect with me
@@ -12,8 +13,11 @@ export const Contact = () => {
           Thank you for visiting my portfolio. I look forward to connecting and
           exploring how we can create amazing digital solutions together.
         </p>
+        <div className='flex gap-2 items-center'>
+          <InBadge />
 
-        <LinkText text={'Contact me'} link="mailto:chamara.sanjeewa@gmail" />
+          <LinkText text={'Email me'} link="mailto:chamara.sanjeewa@gmail" />
+        </div>
       </div>
     </section>
   );
