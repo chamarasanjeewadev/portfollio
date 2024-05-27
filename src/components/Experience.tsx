@@ -1,24 +1,11 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useState } from 'react';
 import { BulletText } from '../atoms/BulletText';
 import { TitleText } from '../atoms/Title';
-// import careerInfo from './../assets/portfollio.json';
 import { cn } from '../utils/cnUtil';
 import { LinkText } from '../atoms/LinkText';
-// import { getPortfolio } from '../services/portfollioService';
 
-export const Experience = ({careerInfo}:{careerInfo:SkillCardProps}) => {
-  // const [careerInfo, setCarrierData] = useState<SkillCardProps>();
-  // const getPortfolioData = useCallback(async () => {
-  //   const portfolio: SkillCardProps = await getPortfolio();
-  //   setCarrierData(portfolio);
-  // }, []);
-
-  // useEffect(() => {
-  //   getPortfolioData();
-  // }, []);
-
+export const Experience = ({ careerInfo }: { careerInfo: SkillCardProps }) => {
   const carrier: SkillCardProps[] = careerInfo?.career ?? [];
-  console.log("carrier",carrier)
   const technologies: string[] = careerInfo?.technologies;
   const languages: string[] = careerInfo?.languages;
   const other: string[] = careerInfo?.other;
@@ -76,7 +63,6 @@ export const SkillCard = ({
   tech,
 }: SkillCardProps) => {
   const [showAll, setShowAll] = useState(false);
-  console.log("company url",companyUrl)
   return (
     <div className="relative  flex flex-col gap-2 text-wrap text-left md:group-hover:bg-slate-800/50">
       <div className="flex items-center gap-2 font-bold ">
